@@ -8,7 +8,7 @@ interface pageProps {
   
 }
 
-const page: FC<pageProps> = ({}) => {
+const Page: FC = () => {
     const [isLoading, setIsLoading] = useState<Boolean>(false)
 
     async function loginWithGoogle() {
